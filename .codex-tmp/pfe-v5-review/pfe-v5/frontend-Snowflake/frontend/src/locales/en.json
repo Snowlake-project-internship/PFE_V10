@@ -1,0 +1,114 @@
+{
+  "sidebar": {
+    "userMenu": "User Menu",
+    "uploadCenter": "Upload Center",
+    "dashboard": "Dashboard",
+    "importHistory": "Import History",
+    "logFiles": "Log Files",
+    "profile": "Profile",
+    "adminControls": "Admin Controls",
+    "platformStats": "Platform Stats",
+    "globalImports": "Global Imports",
+    "manageUsers": "Manage Users",
+    "superAdminControls": "Super Admin",
+    "manageAdmins": "Manage Admins",
+    "allOrganizations": "All Organizations",
+    "logOut": "Log out",
+    "sendFeedback": "Send Feedback"
+  },
+  "layout": {
+    "title": "Snowflake Loader",
+    "shortTitle": "SnowFast",
+    "secureLoader": "Securely load and manage your Snowflake data"
+  },
+  "auth": {
+    "welcome": "Welcome back",
+    "emailLabel": "Email Address",
+    "passwordLabel": "Password",
+    "fullNameLabel": "Full Name",
+    "forgotPassword": "Forgot password?",
+    "signIn": "Sign in",
+    "signUp": "Sign up",
+    "createAccount": "Create an account",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "createNow": "Create one now",
+    "signInInstead": "Sign in instead"
+  },
+  "upload": {
+    "title": "Upload Center",
+    "subtitle": "Drag and drop your Excel safely. We'll automatically validate it before loading.",
+    "dropHere": "Drop your Excel file here",
+    "clickOrDrag": "Click or drag file to this area to upload",
+    "supports": "Supports .xlsx and .xls formats",
+    "cancel": "Cancel",
+    "validationStatus": "Validation Status",
+    "analyzing": "Analyzing headers, types, and constraints...",
+    "validating": "Analyzing headers, types, and constraints...",
+    "validationPassed": "Validation Passed",
+    "validationPassedDesc": "Found 4 columns, 0 null issues, and 0 duplicate rows detected. Safe to push to Snowflake.",
+    "validationFailed": "Validation Failed",
+    "validationFailedDesc": "Found 12 missing values in column 'Revenue'. Please fix the file and re-upload.",
+    "pushing": "Pushing to Snowflake...",
+    "sendToSnowflake": "Send to Snowflake"
+  },
+  "userDashboard": {
+    "title": "Your Dashboard",
+    "subtitle": "Track your import success rates and data quality over time.",
+    "kpiTotal": "Total Imports",
+    "kpiSuccess": "Success Rate",
+    "kpiFailed": "Failed Rows",
+    "kpiVolume": "Data Volume",
+    "chartVolume": "Import Volume Over Time",
+    "chartQuality": "Data Quality Score"
+  },
+  "importHistory": {
+    "title": "Import History",
+    "subtitle": "View your past uploads, debug errors, and rollback accidental pushes.",
+    "search": "Search files...",
+    "colId": "Import ID",
+    "colFile": "File Name",
+    "colDate": "Date",
+    "colRows": "Rows Loaded",
+    "colStatus": "Status",
+    "colActions": "Actions",
+    "statusSuccess": "Success",
+    "statusFailed": "Failed",
+    "rollback": "Rollback"
+  },
+  "profile": {
+    "title": "Profile Settings",
+    "subtitle": "Manage your account details and personalization preferences.",
+    "userType": "Standard User",
+    "tabInfo": "Personal Info",
+    "tabSecurity": "Security",
+    "tabNotifications": "Notifications",
+    "secInfo": "Personal Information",
+    "secSecurity": "Security",
+    "btnSave": "Save Changes"
+  },
+  "feedback": {
+    "title": "Send Feedback",
+    "subtitle": "Describe your issue or reclamation. Your admin will be notified immediately.",
+    "placeholder": "Write your reclamation or feedback here...",
+    "submit": "Send to Admin",
+    "sending": "Sending...",
+    "success": "Your feedback has been sent to your admin.",
+    "errorEmpty": "Please write your message before sending.",
+    "errorSubmit": "Failed to send feedback. Please try again."
+  },
+  "notifications": {
+    "title": "Notifications",
+    "unread": "{{count}} unread",
+    "empty": "No notifications yet.",
+    "loading": "Loading..."
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "subtitle": "System overview, active connections, and top level metrics.",
+    "users": "User Management",
+    "usersSub": "Control access, assign roles, and manage limits.",
+    "imports": "Global Imports",
+    "importsSub": "View and rollback all system-wide data loads."
+  }
+}
