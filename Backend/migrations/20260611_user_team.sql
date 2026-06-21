@@ -1,0 +1,2 @@
+ALTER TABLE users ADD COLUMN IF NOT EXISTS team VARCHAR(100);
+CREATE INDEX IF NOT EXISTS ix_users_team ON users(team);
