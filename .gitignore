@@ -1,4 +1,4 @@
-﻿# Environment and secrets
+# Environment and secrets
 .env
 .env.*
 !.env.example
@@ -20,7 +20,7 @@ dist/
 build/
 .vite/
 
-# Logs and local artifacts
+# Local logs and generated artifacts
 *.log
 .codex-tmp/
 .agents/
